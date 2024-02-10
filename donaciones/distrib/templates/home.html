@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">¡Bienvenido a la Plataforma de Donaciones!</h1>
+        <p class="lead">Ayudamos a conectar a personas que desean hacer donaciones con aquellas que están en necesidad tras desastres naturales.</p>
+        <hr class="my-4">
+        <p>Participa hoy mismo. Puedes contribuir con alimentos, ropa, útiles de aseo, y más. O si necesitas ayuda, regístrate para recibir donaciones.</p>
+        <a class="btn btn-primary btn-lg" href="/autenticacion/signup/" role="button">Registrarse</a>
+        <a class="btn btn-secondary btn-lg" href="/autenticacion/login/" role="button">Iniciar Sesión</a>
+    </div>
+    
+    <div class="row text-center">
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="https://via.placeholder.com/140" alt="Generic placeholder image" width="140" height="140">
+            <h2>Donar</h2>
+            <p>Realiza una donación y marca la diferencia. Cada aporte cuenta.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Más información »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="https://via.placeholder.com/140" alt="Generic placeholder image" width="140" height="140">
+            <h2>Recibir Donaciones</h2>
+            <p>Si has sido afectado y necesitas ayuda, regístrate para recibir donaciones.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Más información »</a></p>
+        </div>
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="https://via.placeholder.com/140" alt="Generic placeholder image" width="140" height="140">
+            <h2>Voluntariado</h2>
+            <p>Únete como voluntario y ayuda en la organización y distribución de donaciones.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Más información »</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
